@@ -30,14 +30,14 @@ end
 #  import Base.*
 #  import Base./
 
-function Base.:*(a::stress_params, b::Real)
-    alpha = b*a.alpha
-    beta = b*a.beta
-    gamma = b*a.gamma
-    phi = b*a.phi
+#  function Base.:*(a::stress_params, b::Real)
+    #  alpha = b*a.alpha
+    #  beta = b*a.beta
+    #  gamma = b*a.gamma
+    #  phi = b*a.phi
 
-    stress_params(alpha,beta,gamma,phi)
-end
+    #  stress_params(alpha,beta,gamma,phi)
+#  end
 
 
 
