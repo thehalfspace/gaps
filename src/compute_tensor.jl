@@ -29,4 +29,4 @@ function compute_stress_tensor(α, β, γ, reduced_tensor)
 end
 
 function read_data()
-    data = readdlm()
+    data = CSV.read("$(@__DIR__)/../data/demo.csv")

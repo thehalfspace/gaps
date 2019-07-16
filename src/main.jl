@@ -14,7 +14,7 @@ include("$(@__DIR__)/params.jl")
 include("$(@__DIR__)/initialization.jl")
 
 using Printf
-using DelimitedFiles
+using CSV
 using LinearAlgebra
 
 P1 = params(10,10,4,1,2)
